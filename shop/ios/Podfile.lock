@@ -1,0 +1,45 @@
+PODS:
+  - Flutter (1.0.0)
+  - JCore (2.0.2)
+  - JPush (3.2.0):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - jpush_flutter (0.0.2):
+    - Flutter
+    - JPush
+  - shared_preferences (0.0.1):
+    - Flutter
+  - url_launcher (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - jpush_flutter (from `.symlinks/plugins/jpush_flutter/ios`)
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+  - url_launcher (from `.symlinks/plugins/url_launcher/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JCore
+    - JPush
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  jpush_flutter:
+    :path: ".symlinks/plugins/jpush_flutter/ios"
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+  url_launcher:
+    :path: ".symlinks/plugins/url_launcher/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  JCore: d4cbe6d178eaeb0ed263e42a6ebcb617855ef7cb
+  JPush: 8459e7a709ad86f95884fcb49cbd57a6da24744e
+  jpush_flutter: d7e3a79466eb9447fd940233f02661b514f137c6
+  shared_preferences: 1feebfa37bb57264736e16865e7ffae7fc99b523
+  url_launcher: 0067ddb8f10d36786672aa0722a21717dba3a298
+
+PODFILE CHECKSUM: 7fb83752f59ead6285236625b82473f90b1cb932
+
+COCOAPODS: 1.7.1
