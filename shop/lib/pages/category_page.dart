@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../config/service_url.dart';
 import '../service/service_method.dart';
 import 'dart:convert';

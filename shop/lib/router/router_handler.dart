@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fluro/fluro.dart';
+import 'package:fluro/fluro.dart';//引入路由
 import '../pages/details_page.dart';//要跳到详情 所以引入页面
 
 
