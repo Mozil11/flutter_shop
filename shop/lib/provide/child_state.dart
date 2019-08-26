@@ -16,6 +16,7 @@ class ChildCategory with ChangeNotifier{
     myid = id;//点击大类获取id
     childindex = 0;//点击大类索引变为0
     childCategoryList = list;
+    print('myid>>>>>>>>>>$myid');
     notifyListeners();
   }
   //改变子类
